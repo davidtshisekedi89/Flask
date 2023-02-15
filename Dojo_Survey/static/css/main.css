@@ -1,0 +1,39 @@
+h2{
+    color: rgb(243,147,3);
+}
+
+body{
+    background-color: rgb(51,57,62);
+}
+
+label{
+    color: white;
+}
+
+.btn {
+    background-color: rgb(243,147,3);
+    width: 100px;
+    height: 50px;
+    font-size: 1.1rem;
+}
+
+.card{
+    width: 800px;
+    height: 200px;
+    margin-top: 40px;
+}
+
+.btn2 {
+    text-decoration: none;
+}
+
+.card-title{
+    font-weight: bolder;
+    color: rgb(13,71,161);
+    font-size: 1.5rem;
+}
+
+
+.form-control {
+    color: black;
+}

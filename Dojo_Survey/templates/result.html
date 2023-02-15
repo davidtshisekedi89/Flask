@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/main.css')}}">
+</head>
+
+<body>
+    <div class="card container">
+        <div class="card-body">
+          <h3 class="card-title">{{session['name']}}</h3>
+          <p class="card-text">Dojo Location: {{session['location']}}</p>
+          <p class="card-text">Favorite Language: {{session['language']}}</p>
+          <p class="card-text">Comments: {{session['comments']}}</p>
+          <a href="/" class="btn2">Home</a>
+        </div>
+      </div>
+</body>
+
+</html>
